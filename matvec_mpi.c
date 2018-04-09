@@ -1,8 +1,8 @@
 /*
- *  matvec_mpi.c - MPI Uebung 5
+ *  matvec_mpi.c - Multiply Matrix and Vector
  *
  *  Created by Thomas Kindermann on 25.06.07 with help of MPI
- *  Copyright 2007 Thomas Kindermann. All rights reserved.
+ *  Copyright 2018 Thomas Kindermann. All rights reserved.
  *
  */
 
