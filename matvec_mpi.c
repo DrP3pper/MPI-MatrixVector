@@ -4,6 +4,8 @@
  *  Created by Thomas Kindermann on 25.06.07 with help of MPI
  *  Copyright 2018 Thomas Kindermann. All rights reserved.
  *
+ *  Remember to compile with mpicc and execute with mpirun.
+ *
  */
 
 #include <stdio.h>
