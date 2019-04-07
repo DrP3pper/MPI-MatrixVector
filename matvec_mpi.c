@@ -2,7 +2,7 @@
  *  matvec_mpi.c - Multiply Matrix and Vector
  *
  *  Created by Thomas Kindermann on 25.06.07 with help of MPI
- *  Copyright 2018 Thomas Kindermann. All rights reserved.
+ *  Copyright 2019 Thomas Kindermann. All rights reserved.
  *
  *  Remember to compile with mpicc and execute with mpirun.
  *
@@ -10,9 +10,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-//#include <unistd.h>
-//#include <stdint.h>
-//#include <inttypes.h>
 #include <sys/time.h>
 #include <math.h>
 #include "mpi.h"
@@ -77,7 +74,7 @@ int main(int argc, char **argv) {
 			
 		printf("\n");
 	}
-/*
+
 	MPI_Bcast(&X, N, MPI_DOUBLE, ROOT, MPI_COMM_WORLD);
 	
 	printf("process' %d (node %s) Vektor X:\n", myrank, processor_name);
@@ -109,10 +106,9 @@ int main(int argc, char **argv) {
 			printf("%2d ", Y[i]);
 		
 		printf("\n");
-	}*/
+	}
 	
 	MPI_Finalize();
 	
 	return 0;
 }
-
